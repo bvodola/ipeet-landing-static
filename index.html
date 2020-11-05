@@ -17,16 +17,27 @@
       <div class="aa-header">
         <nav class="navbar navbar-expand-md navbar-transparent">
           <div class="container">
-            <!-- <img class="img-fluid pr-3 aa-logo-img" src="images/logo.png" alt="logo" /> -->
+            <img class="img-fluid pr-3 aa-logo-img" src="images/logo-512x512.png" alt="logo" />
             <a class="navbar-brand px-0 py-0" href="#">iPeet</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pageMenu"
+              aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="pageMenu">
               <ul class="navbar-nav ml-auto">
+                <li class="close-nav-menu navbar-toggler nav-item" type="button" data-toggle="collapse" data-target="#pageMenu"
+                  aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  Fechar
+                </li>
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#features">O App</a></li>
                 <li class="nav-item"><a class="nav-link" href="#about">Quem Somos?</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://admin-staging.ipeetbrasil.com.br">Cadastrar PetShop</a></li>
-                <li class="nav-item"><a class="btn btn-outline-neutral btn-round" href="#download">Download</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://admin-staging.ipeetbrasil.com.br/#/register">Cadastrar PetShop</a></li>
+                <!-- <li class="nav-item"><a class="btn btn-outline-neutral btn-round" href="#download">Download</a></li> -->
+                
               </ul>
             </div>
           </div>
@@ -34,14 +45,16 @@
         <div class="container aa-header-content text-left text-white">
           <div class="row">
             <div class="col-md-6 col-sm-12">
-              <h1 class="text-white mb-4">iPeet <br/>O App do seu pet</h1>
+              <h1 class="text-white mb-4 text-xs-center">iPeet <br/>O App do seu pet</h1>
               <!-- <p>Seu PetShop sem sair de casa.</p> -->
               <!-- <ul class="py-1 list-unstyled">
                 <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Amazing Design to Present Your App</li>
                 <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Fully Responsive and Powered by Bootstrap &amp; PaperKit</li>
                 <li class="py-2"><i class="fa fa-check-circle pr-4" aria-hidden="true"></i> Very Easy to Customize and Setup</li>
               </ul> -->
-              <a class="mt-4 btn btn-outline-neutral btn-round" href="#features">Como Funciona?</a>
+              <div class="text-xs-center">
+                <a class="mt-4 btn btn-outline-neutral btn-round" href="#features">Como Funciona?</a>
+              </div>
             </div>
             <div class="col-md-6 col-sm-12 text-right"><img class="img-fluid" src="images/1C.png" alt="Image"></div>
           </div>
@@ -163,6 +176,8 @@
     </footer>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/jquery-ui-1.12.1.custom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.4/js/bootstrap-switch.js"
+      data-turbolinks-track="true"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/paper-kit.js?v=2.1.0"></script>

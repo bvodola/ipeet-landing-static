@@ -295,3 +295,18 @@ h6,
   color: inherit;
   border-bottom: 1px dashed;
 }
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.close-nav-menu {
+  padding-left: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.aa-logo-img {
+  width: 70px;
+}
