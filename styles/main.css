@@ -310,3 +310,19 @@ h6,
 .aa-logo-img {
   width: 70px;
 }
+
+.btn-store-wrapper {
+  text-align: center;
+}
+
+.btn-store {
+  padding: 12px 20px;
+  font-size: 14px;
+  width: 250px;
+}
+
+.btn-store img {
+  width: 28px;
+  margin-right: 10px;
+  padding-bottom: 0 !important;
+}
